@@ -1,0 +1,11 @@
+/* Corrected CSS with proper use of calc() */
+#myElement {
+  width: calc(100% - 20px);
+  height: calc(50vh + 10px);
+  padding: calc(10px + 5%); /*Space added around operators*/
+}
+
+/*Example of nested calc()
+#anotherElement{
+  width: calc(100% - calc(20px + 10%)); /*correct nesting of calc*/
+}
